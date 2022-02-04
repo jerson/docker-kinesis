@@ -4,6 +4,6 @@ RUN npm install -g kinesalite
 
 EXPOSE 4567
 
-ENTRYPOINT ["kinesalite"]
+ENTRYPOINT ["/usr/local/bin/kinesalite"]
 
 CMD ["--help"]
